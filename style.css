@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+/* all styles start */
+
+.container {
+  margin-top: 120px;
+  align-items: center;
+  border: 5px double black;
+}
+
+.title {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* card title start */
+
+.card-title {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-title__text {
+  display: flex;
+  align-items: center;
+  padding: 12px 30px 0px 0px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.box__input {
+  border: solid 2px;
+  padding: 4px 0px 4px 8px;
+  font-weight: 600;
+}
+.box__btn {
+  padding: 4px 15px;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
+/* card title finish */
+
+/* all three cards styles start */
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+
+  /* all three cards styles finish */
+
+  /* card__1 start */
+}
+.card__1 {
+  border-radius: 7px;
+  border: solid grey;
+  padding: 30px 45px;
+  text-align: center;
+  margin-right: 50px;
+  margin-top: -45px;
+}
+.photo__person {
+  width: 80px;
+  height: 80px;
+}
+.card__1 h3 {
+  font-weight: 600;
+}
+.card__1 p {
+  font-weight: 700;
+  min-width: 150px;
+  font-size: 20px;
+}
+
+/* card__1 start */
+
+/* card__2 strart */
+
+.card__2 {
+  border-radius: 7px;
+  border: solid grey;
+  padding: 30px 45px;
+  text-align: center;
+  margin-right: 50px;
+  margin-top: -45px;
+}
+.bike__photo {
+  width: 80px;
+  height: 80px;
+}
+.card__2 h3 {
+  font-weight: 600;
+}
+.card__2 p {
+  font-weight: 700;
+  min-width: 150px;
+  font-size: 20px;
+}
+
+/* card__2 finish  */
+
+/* card__3 start */
+
+.card__3 {
+  border-radius: 7px;
+  border: solid grey;
+  padding: 30px 50px;
+  text-align: center;
+  position: relative;
+  top: -25px;
+}
+.card__3 img {
+  width: 120px;
+  height: auto;
+}
+.card__3 h3 {
+  font-weight: 600;
+}
+.card__3 p {
+  font-weight: 700;
+  min-width: 150px;
+  font-size: 20px;
+}
+
+/* card__3 finish */
+
+/* all styles finish  */
